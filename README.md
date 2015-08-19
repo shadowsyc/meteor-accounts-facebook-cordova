@@ -24,7 +24,7 @@ This packages replaces the accounts-facebook package. It works with [phonegap-fa
 ##### Package Installation
 Meteor 0.9.0 and up
 ````
-meteor add particle4dev:cordova-fb
+meteor add shadowsyc:cordova-fb
 ````
 *Note: For testing you can also add accounts-ui package.*
 
@@ -34,9 +34,16 @@ meteor add particle4dev:cordova-fb
 ````
 {
     "cordova": {
+      "dev":{
         "APP_ID": "1082178381799216",
         "APP_NAME": "jerr­y­-s­t­o­ries-test1",
         "secret": "dfc9aaabbe537b25c752b91ddcb07348"
+      },
+      "pro": {
+         "APP_ID": "1082178381799216",
+         "APP_NAME": "jerr­y­-s­t­o­ries-test1",
+         "secret": "dfc9aaabbe537b25c752b91ddcb07348"
+      }
     },
     "permissions": [
         "public_profile",
